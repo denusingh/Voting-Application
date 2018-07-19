@@ -1,0 +1,2 @@
+# Voting-Application
+This is one of UCOL’s assignments and the application is designed for the 2017 New Zealand General Election. This application will include three main parts for the voting system. First of all, electoral candidates for Palmerston North, Te Tai Hauauru, and Rangitikei electorates’ part will be run in the application. Next, users can vote for parties in the application. Finally, the application will also provide Referendum part for the General Election 2017.
