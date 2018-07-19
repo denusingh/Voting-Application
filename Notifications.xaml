@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="UWPLoginPage.Notifications"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPLoginPage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Azure">
+        <Button Content="Back" FontSize="30" HorizontalAlignment="Left" Margin="849,31,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.199,0.002" Height="54" Width="139" Click="Button_Click"/>
+        <TextBlock FontFamily="Arial"  FontSize="20" FontStretch="Expanded" HorizontalAlignment="Left" Margin="69,117,0,51" TextWrapping="Wrap" Width="896">
+            <Run Text="Voting in a General Election begins two weeks before Election Day. You can vote whenever is convenient for you. "/>
+            <LineBreak/>
+            <Run/>
+            <LineBreak/>
+            <Run Text=" To be eligible to vote in an election, you need to be enrolled by the Friday before Election Day.  Enrol, Check or Update Now!  The easiest way to vote is to go to a voting place in your electorate during the voting period. "/>
+            <LineBreak/>
+            <Run/>
+            <LineBreak/>
+            <Run Text="There'll be someone there to show you where to go and what to do. However if you can't get to a voting place, there are other options available to you.                                                                                                                                                                  "/>
+            <LineBreak/>
+            <Run/>
+            <LineBreak/>
+            <Run Text="&gt; Can't get to a voting place? "/>
+            <LineBreak/>
+            <Run/>
+            <LineBreak/>
+            <Run Text="Information about where, when and how to vote is available closer to election day for any general election or by-election. "/>
+            <LineBreak/>
+            <Run/>
+            <LineBreak/>
+            <Run Text="This information will also be in your EasyVote information pack, which you will receive about a week before election day, or on freephone 0800 36 76 56.  "/>
+            <LineBreak/>
+            <Run/>
+            <LineBreak/>
+            <Run Text="If you have an EasyVote card take it with you when you go to vote and give it to the person issuing your voting paper. "/>
+            <LineBreak/>
+            <Run/>
+            <LineBreak/>
+            <Run Text="It will help them find you on the electoral roll. They'll ask you your name and address then give you a voting paper. "/>
+            <LineBreak/>
+            <Run/>
+            <LineBreak/>
+            <Run Text="If you don't have an EasyVote card, you will need to give the person issuing your vote your full name and address."/>
+        </TextBlock>
+
+    </Grid>
+</Page>

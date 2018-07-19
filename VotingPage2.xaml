@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="UWPLoginPage.VotingPage2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPLoginPage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="MidnightBlue">
+
+        <AppBarButton HorizontalAlignment="Left" Foreground="White" Icon="Accept" Label="Vote only for one Party" Margin="320,0,0,0" VerticalAlignment="Top" Width="419"/>
+
+        <CommandBar Margin="0,720,0,0">
+            <AppBarButton Icon="Add" Label="Add"/>
+            <AppBarButton Icon="Delete" Label="Delete"/>
+        </CommandBar>
+
+        <Button FontSize="40" Content="Please Select the Electorate Vote" Background="LightYellow" Margin="267,61,216,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+
+        <StackPanel Background="Coral" HorizontalAlignment="Left" Height="588" Margin="59,127,0,0" VerticalAlignment="Top" Width="931"/>
+
+        <Button Content="Allen, Fred (Labour)" FontSize="35" HorizontalAlignment="Left" Margin="83,157,0,0" VerticalAlignment="Top" Height="62" Width="341" Click="Button_Click0" RequestedTheme="Light" Background="#33FD0000"/>
+
+        <Button Content="Barker, Mary(ACT)" FontSize="35" HorizontalAlignment="Left" Margin="83,342,0,0" VerticalAlignment="Top" Height="62" Width="341" Click="Button_Click1" RequestedTheme="Light" Background="#33FD0000"/>
+
+        <Button Content="Denis, Alistair(National)" FontSize="35" HorizontalAlignment="Left" Margin="83,535,0,0" VerticalAlignment="Top" Height="62" Width="341" Click="Button_Click2" RequestedTheme="Light" Background="#33FD0000"/>
+
+        <Button Content="Ellis, John(Alliance)" FontSize="35" HorizontalAlignment="Left" Margin="614,157,0,0" VerticalAlignment="Top" Height="62" Width="341" Click="Button_Click3" RequestedTheme="Light" Background="#33FD0000"/>
+
+        <Button Content="Greig, Tony" FontSize="35" HorizontalAlignment="Left" Margin="614,342,0,0" VerticalAlignment="Top" Height="62" Width="341" Click="Button_Click4" RequestedTheme="Light" Background="#33FD0000"/>
+
+        <Button Content="Illott, Anne(NZ First)" FontSize="35" HorizontalAlignment="Left" Margin="614,535,0,0" VerticalAlignment="Top" Height="62" Width="341" Click="Button_Click5" RequestedTheme="Light" Background="#33FD0000"/>
+
+        <Button Content="Martin, Hamish(ROC)" FontSize="35" HorizontalAlignment="Left" Margin="373,622,0,0" VerticalAlignment="Top" Height="62" Width="341" Click="Button_Click6" RequestedTheme="Light" Background="#33FD0000"/>
+
+    </Grid>
+
+</Page>

@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="UWPLoginPage.VotingEnds"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPLoginPage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="MidnightBlue">
+
+        <Button Content="Go to Home Page" FontSize="22" Background="Navy" Foreground="White" HorizontalAlignment="Left" Margin="397,422,0,0" VerticalAlignment="Top" Height="42" Width="262" Click="Button_Click"/>
+
+        <Button FontSize="40" Content="Voting Completed Please Click Below" Background="LightYellow" Margin="185,272,138,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="701" IsEnabled="False"/>
+
+
+    </Grid>
+</Page>
